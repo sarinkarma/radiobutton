@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RadioGroup
+        android:id="@+id/rgAnimals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbAn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/rbWeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Web"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/rbApi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="API"
+            android:layout_weight="1"/>
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/ivShowimg"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher_background"/>
+
+
+
+</LinearLayout>
